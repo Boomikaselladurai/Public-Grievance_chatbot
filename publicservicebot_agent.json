@@ -1,0 +1,1078 @@
+{
+  "description": "",
+  "language": "en",
+  "shortDescription": "",
+  "examples": "",
+  "linkToDocs": "",
+  "displayName": "GrievancesBot",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on"
+  ],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": false,
+  "defaultTimezone": "Asia/Almaty",
+  "isPrivate": true,
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": true,
+  "onePlatformApiVersion": "v2beta1",
+  "secondaryKey": "383f821a742948e7a13dd85baba2f2f9",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [
+    "projects/grievancesbot/knowledgeBases/Mzg4NTgxMDcwNjg4MDEzNTE2OQ"
+  ],
+  "knowledgeServiceConfidenceAdjustment": 0.0,
+  "dialogBuilderMode": false,
+  "baseActionPackagesUrl": "",
+  "enableSpellCorrection": false
+}
+{
+  "id": "8e92ea91-a413-4cfa-bde6-1623b0ce1c01",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I didn\u0027t get that. Can you say it again?",
+            "I missed what you said. What was that?",
+            "Sorry, could you say that again?",
+            "Sorry, can you say that again?",
+            "Can you say that again?",
+            "Sorry, I didn\u0027t get that. Can you rephrase?",
+            "Sorry, what was that?",
+            "One more time?",
+            "What was that?",
+            "Say that one more time?",
+            "I didn\u0027t get that. Can you repeat?",
+            "I missed that, say that again?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
+{
+  "id": "b3017201-77da-4542-b862-10368a1bed5c",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hello! welcome to the public grievances Bot",
+            "What is the problem?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
+[
+  {
+    "id": "258d5f8c-5b11-4eab-a8b2-3e55fe353406",
+    "data": [
+      {
+        "text": "i have a problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "971421cc-0860-476c-940a-a8d9dc996636",
+    "data": [
+      {
+        "text": "Goodafternoon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b514f7e4-934b-4407-aebd-52ed6d6725d3",
+    "data": [
+      {
+        "text": "Goodevening",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4baaf640-b245-46d1-bf4d-6992a3ca3001",
+    "data": [
+      {
+        "text": "good Evening",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f0740316-4342-4320-a1e6-13f8e852fe01",
+    "data": [
+      {
+        "text": "Good morning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4dd202e0-0792-4a2e-b9dd-590127363dcd",
+    "data": [
+      {
+        "text": "Goodmorning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a16e73e9-2d08-406e-b416-28757a21f46e",
+    "data": [
+      {
+        "text": "hai",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "931c4aab-445e-4c95-bf3d-ba90f361d0e9",
+    "data": [
+      {
+        "text": "hello",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "91a40d49-9118-477d-9717-7415ff94113f",
+    "data": [
+      {
+        "text": "heya",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0dd3891c-2f4c-43cc-8f1d-e10cf715a185",
+    "data": [
+      {
+        "text": "hello hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ac6aa33-7902-4026-a704-bd54bf8c2193",
+    "data": [
+      {
+        "text": "howdy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b563cca6-3faf-4797-a31e-0211f45e1977",
+    "data": [
+      {
+        "text": "hey there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3b14a931-595d-417f-8bd5-8e785ffc8fce",
+    "data": [
+      {
+        "text": "hi there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e207dfb3-ecf1-497e-ae99-f540098f387b",
+    "data": [
+      {
+        "text": "greetings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2cb32e9a-f31f-4c4d-8682-8cb672dd193d",
+    "data": [
+      {
+        "text": "hey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d130a655-6675-49d1-bf3e-08e8dbab36ee",
+    "data": [
+      {
+        "text": "long time no see",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3cc50b8d-18a9-4356-b5a3-3feb48469b22",
+    "data": [
+      {
+        "text": "lovely day isn\u0027t it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e54fb49e-1bde-4caa-b305-3ba5983302ca",
+    "data": [
+      {
+        "text": "I greet you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78b81fe5-2bde-45fa-a7ab-6648840a65d8",
+    "data": [
+      {
+        "text": "hello again",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "921295a8-b0d6-4f3c-bd54-f9cd23e252a7",
+    "data": [
+      {
+        "text": "hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd1484ef-73e2-4e1a-a606-e8061bb29c16",
+    "data": [
+      {
+        "text": "hello there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bcf1a59e-a63c-41aa-b960-fb358a498d2f",
+    "data": [
+      {
+        "text": "a good day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
+[
+  {
+    "action": "smalltalk.agent.acquaintance",
+    "customAnswers": [
+      "i am a bot"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.answer_my_question",
+    "customAnswers": [
+      "sure.free feel to ask"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.bad",
+    "customAnswers": [
+      "sorry for your inconvenience"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.birth_date",
+    "customAnswers": [
+      "i am a bot .i don\u0027t have birth day date"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.can_you_help",
+    "customAnswers": [
+      "Sure. Say your grievances"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.ready",
+    "customAnswers": [
+      "yes"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.goodevening",
+    "customAnswers": [
+      "Good evening. How can i help you"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.goodmorning",
+    "customAnswers": [
+      "Good morning. How can i help you"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.hello",
+    "customAnswers": [
+      "Hai, how can i help you?"
+    ]
+  }
+]
+{
+  "id": "25f8e745-dd9d-41cb-b4f6-d057eef7c979",
+  "name": "Electricity Problem",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fba6737a-9715-41d1-95ef-7220fdfcbfe1",
+          "name": "any",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What type of electricity problem you are facing(power outages, Voltage fluctuations, Transformer failures, etc.,)?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5686d261-3420-4962-bf0f-20582600b081",
+          "name": "location",
+          "required": true,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "where the electricity problem is occurred?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9fe140f9-419b-4104-9750-0bda44a688fd",
+          "name": "date-time",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "value": "$date-time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "when did the electricity problem start?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "eaedb91e-e8a7-4b05-a3c0-ba40ebb21c00",
+          "name": "given-name",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$given-name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c0a67230-43dd-4827-8628-63124e354827",
+          "name": "address",
+          "required": true,
+          "dataType": "@sys.address",
+          "value": "$address",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "could you please give me your address."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6acff0e8-607f-44fe-a958-7889b60b101a",
+          "name": "phone-number",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Kindly provide me your mobile number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "We are sorry to hear about the electricity problem you\u0027re experiencing .We will rectify the problem without delay. Thank you for bringing to our attention ."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
+{
+  "id": "50c0d757-b08d-4e9b-a2b7-942fa32e6fdb",
+  "name": "Pension Delay",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "471f48b3-0171-48d9-b51a-7d8735fec86b",
+          "name": "number",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you provide your pension ID"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "50e5c665-c9c6-4d8f-930d-cdb1b47db467",
+          "name": "date-time",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "value": "$date-time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "When was your pension payment due?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "babc2426-1ea5-4bd7-85fe-05f9fbb3012f",
+          "name": "Yes",
+          "required": true,
+          "dataType": "@Yes",
+          "value": "$Yes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Have you received any communication from the pension department regarding the delay?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+		{
+  "id": "6cc799de-2223-4b30-8a38-6835d8082afc",
+  "name": "Yes",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}
+[
+  {
+    "value": "No",
+    "synonyms": [
+      "No",
+      "$ yes or no"
+    ]
+  }
+]
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "We understand your concern regarding the pension delay . We understand the importance of timely pension payments and apologize for any inconvenience this delay have caused. We try to solve this problem soon."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
+{
+  "id": "25068fe1-793e-4fac-b2ff-1f4ed136f0f9",
+  "name": "Road damage",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5309d4f1-df70-476a-86b5-666fe08d0d1e",
+          "name": "any",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What type of damage is it(pothole, cracked pavement, sinkhole , etc..,)?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a9a63f59-d4de-47ef-a472-678578e0ab6e",
+          "name": "location",
+          "required": true,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "where exactly is the road damage  located(street name, landmark, intersection)?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4ee13fc7-d83e-4c93-9be7-6ca5c6ee9798",
+          "name": "date",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "when did you first notice the road damage ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "49e3762b-a5ca-484d-b664-9cb64cbe4edb",
+          "name": "given-name",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$given-name",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "can you give me your name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e7031bd8-6a19-43b5-b8bb-502bcf8eebb9",
+          "name": "address",
+          "required": true,
+          "dataType": "@sys.address",
+          "value": "$address",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Give me your address"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "69ae70b6-44a7-4c23-8120-9dd73c54bfc3",
+          "name": "phone-number",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "kindly give me your mobile number."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3888a221-19b7-4d37-91be-8de23da903e1",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "can you give me your email id?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for bringing the road damage to our attention. Safety is our top priority and we appreciate your help in identifying the road damage .Soon we will solve this problem ."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
+{
+  "id": "1a4a112a-8277-46bd-939d-8e7e11dbe9cd",
+  "name": "Water Issue",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d2dd1a19-1f64-4b6f-9d12-c786aa6a954d",
+          "name": "any",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what kind of water issue occurred(water scarcity, flood, polluted water, etc..,) ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a62e96f6-e268-4ae6-885a-3f740546092b",
+          "name": "location",
+          "required": true,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what is the current location of the problem occurred?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e3a74112-69e0-4933-8cf6-3592db4d46d4",
+          "name": "date-time",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "value": "$date-time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "from when you are facing this problem?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5423e511-3fe8-4168-a454-8b825467a0dd",
+          "name": "given-name",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$given-name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Give me your name."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "af3b3def-37c5-4c10-aa5c-835ca3b97bac",
+          "name": "phone-number",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Could you provide me your mobile number?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "87c98634-9019-4721-a61f-feb41e3adf10",
+          "name": "address",
+          "required": true,
+          "dataType": "@sys.address",
+          "value": "$address",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Kindly give me your address."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9af183e4-6f25-488b-b36c-3738493fb7cb",
+          "name": "Scope",
+          "required": true,
+          "dataType": "@Scope",
+          "value": "$Scope",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Is the issue affecting your entire area or just your property ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+		{
+  "id": "c93b0b0b-8736-4efa-bc25-39808470c6ca",
+  "name": "Scope",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}
+[
+  {
+    "value": " issue",
+    "synonyms": [
+      "issue",
+      "affects"
+    ]
+  }
+]
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for reporting the water issue .We apologize for the inconvenience. We will work to resolve it as quickly as possible."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
+{
+  "version": "1.0.0"
+}
